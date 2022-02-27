@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <!-- add style -->
+    <style media="screen">
+        body { background: #ECEFF1; color: rgba(0,0,0,0.87); text-transform: uppercase; font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+        #message { background: white; max-width: 400px; margin: 50px auto 16px; padding: 32px 24px 16px; border-radius: 3px; }
+        #message h3 { color: #888; font-weight: normal; font-size: 16px; margin: 16px 0 12px; }
+        #message h2 { color: #ffa100; font-weight: bold; font-size: 45px; text-align: center; margin: 0 0 8px; }
+        #message h1 { font-size: 30px; font-weight: 300; text-align: center; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+        #message p { color: rgba(0,0,0,0.87); line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+        #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+        #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+        #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+        #holder {margin: 10px auto 16px; padding: 32px 24px 16px; border-radius: 3px;}
+        #navbar {text-align: right; margin: auto; padding-right: 3%;}
+        @media (max-width: 600px) {
+          body, #message { margin-top: 0; background: white; box-shadow: none; }
+          body { border-top: 16px solid #ffa100; }
+        }
+      </style>
+</head>
+<nav id="navbar">
+    <div>
+        <ul>
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-external-link"></i></a>
+        </ul>
+    </div>
+</nav>
+<body>
+    <div id="load">
+        <img src="iiaaem-logo.png" alt="college logo" id="holder">
+        <p>placement tv</p>
+    </div>
+
+    <!-- message display -->
+
+    <div id="message">
+            <div class="box">
+                <h1 id="starname"></h1>
+            </div>
+        <div class="packbox">
+            <h2 id="starpack"></h2>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
